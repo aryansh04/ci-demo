@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "BB Pipeline Demo",
+  "namespace": "",
+  "sfdcLoginUrl": "https://empathetic-shark-580n3a-dev-ed.my.salesforce.com/",
+  "sourceApiVersion": "52.0"
+}
