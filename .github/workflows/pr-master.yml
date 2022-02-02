@@ -38,7 +38,7 @@ jobs:
       
       # Authenticate with Dev-Hub
       - name: 'Authenticate with Dev-hub'
-        run: sfdx force:auth:jwt:grant --clientid 3MVG9Nk1FpUrSQHc834L03Fp8Pe9Jzbn6bf0ed1X5DLbdXGaPdMbmc72jamfNJ8c7sJ9evdqQtj7ZKmbOHs.9 --jwtkeyfile assets/server.key --username md1738@empathetic-shark-580n3a.com --setalias mydevhubTP --setdefaultdevhubusername
+        run: sfdx force:auth:jwt:grant --clientid 3MVG9Nk1FpUrSQHc834L03Fp8Pe9Jzbn6bf0ed1X5DLbdXGaPdMbmc72jamfNJ8c7sJ9evdqQtj7ZKmbOHs.9 --jwtkeyfile server.key --username md1738@empathetic-shark-580n3a.com --setalias mydevhubTP --setdefaultdevhubusername
         
       # Validate
       - name: 'Validate Metadata'
